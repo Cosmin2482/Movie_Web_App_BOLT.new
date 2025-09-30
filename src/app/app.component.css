@@ -1,0 +1,22 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1e1e2e 0%, #2d1b69 100%);
+  color: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+}
